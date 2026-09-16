@@ -1,0 +1,6 @@
+shapely
+scipy
+numpy
+matplotlib
+commonroad-io==2023.3
+dg_commons

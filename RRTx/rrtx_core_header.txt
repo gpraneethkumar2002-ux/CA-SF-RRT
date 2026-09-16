@@ -1,0 +1,24 @@
+from dataclasses import dataclass
+from typing import Optional, List, Tuple, Dict, Set
+import heapq
+import numpy as np
+import scipy.spatial
+import shapely.geometry as geom
+
+ROUND_DP = 2
+
+@dataclass
+class VehicleGeometry:
+    w_half: float
+    lf: float
+    lr: float
+    bumpers_length: Tuple[float, float]
+
+@dataclass
+class Path:
+    path: geom.LineString
+    obs_clearance: float
+    cost: float = np.inf
+
+    def __post_init__(self):
+        self.cost = self.path.length + 5 / self.obs_clearance
