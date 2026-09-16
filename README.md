@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://github.com/AtsushiSakai/PythonRobotics/raw/master/icon.png?raw=true" align="right" width="300" alt="header pic"/>
 
 # PythonRobotics
@@ -675,3 +676,6 @@ They are providing a free license of their 1Password team license for this OSS p
 
 - [Contributors to AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics/graphs/contributors)
 
+=======
+# CA-SF-RRT
+>>>>>>> 60839993bfa8a506ada9782189ff09580ca13637
